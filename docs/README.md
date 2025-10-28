@@ -1378,6 +1378,10 @@ ssh.exe -N -L 5672:localhost:5672 USERNAME@HOSTNAME # RabbitMQ
 ```
 
 After establishing these connections, the ELEPHANT client can communicate with the ELEPHANT server just as launched on localhost.
+To access the Swagger API documentation page, navigate to `http://localhost:8080/` in your web browser after establishing the connection.
+
+<img src="_media/swagger-api.png"></img>
+
 
 ## Demo Data
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5519708.svg)](https://doi.org/10.5281/zenodo.5519708)
